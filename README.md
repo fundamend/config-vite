@@ -20,7 +20,7 @@ In your [vite.config.js], import _config-vite_ and spread it into the exported o
 const config = require('@fundamend/config-vite');
 
 module.exports = {
-	...config,
+	...config
 };
 ```
 
@@ -31,7 +31,7 @@ const config = require('@fundamend/config-vite');
 
 module.exports = {
 	...config,
-	root: 'another/root',
+	root: 'another/root'
 };
 ```
 
